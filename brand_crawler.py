@@ -8,7 +8,7 @@ from string import ascii_uppercase
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-csv_file = open('/Users/ifit/Desktop/beauty/brand.csv', 'w', newline='',encoding="utf-8")
+csv_file = open('brand.csv', 'w', newline='',encoding="utf-8")
 csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['Brand Name', 'Brand Url'])
 
